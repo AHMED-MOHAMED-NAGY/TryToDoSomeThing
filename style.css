@@ -1,0 +1,66 @@
+html{
+    height: 100%;
+}
+
+body{
+    justify-content: center;
+    display: flex;
+    background-color: #cccccca3;
+    transition: background 0.4s, color 0.4s;
+}
+
+.page{
+    width: 95%;
+    /*height: 85vh;*/
+    background-size: 85%;
+    display: block;
+}
+.pageInto{
+    margin: 20px 20px 0px 20px;
+    padding: 20px 20px 0px 20px;
+    border: 1px solid #000;    
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(103, 103, 103);
+}
+/*activetion to nav items*/
+.activetion{
+    color: rgb(212, 4, 4);
+}
+.darkmode .activetion{
+    color:rgb(190, 123, 123);
+}
+.textAtLastPage{
+    width: 100px;
+    text-align: left;
+    margin-top: 50px;
+}
+.theTextNextTheBox{
+    display: flex;
+    margin-bottom: 20px;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}
+.theTextNextTheBox a{
+    text-decoration: none;
+    color:#111111;
+    margin: 10px;
+}
+.darkmode{
+    background-color: #111111;
+    color:bisque;
+}
+.darkmode .pageInto{
+    border: 1px solid rgb(255,228,196);
+}
+.darkmode .theTextNextTheBox a{
+    color:bisque;
+}
+
+.copyright{
+    color: gray;
+    margin-left: 20px;
+    display: block;
+}
