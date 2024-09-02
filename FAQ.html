@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images.png">
+    <title>try do something</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id = body class = "body">
+
+    <div class ="theTextNextTheBox">
+        <a href="#" onclick="dark()">Dark mode</a>
+        <a href="#" onclick="white()">White mode</a>
+    </div>
+
+    <div class ="page">
+        <div class="pageInto faq">
+
+            <video class="video-bg" id ="BGvideo" autoplay loop muted src="bgWhiteMode.mp4"></video>
+
+            <div class="frist-text">
+                <h1>Keita Yamada</h1>
+                <p>Designer and Developer</p>
+                
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="info.html">Info</a></li>
+                        <li><a href="contact.html">contact</a></li>
+                        <li><a href="FAQ.html" class ="activetion">FAQ</a></li>
+                    </ul>
+                </nav>
+            </div>
+            
+            <div class ="textAtLastPage-faq">
+                <ul>
+                    <li>
+                        <p>How did you make the background effect in this website?</p><br>
+                        <span>I used three.js to write WebGL faster and the background effect is written in glsl.</span><br>
+                        <span>If you are interested in glsl, I recommend you to read </span><a href="https://thebookofshaders.com/">The Book of Shaders</a>
+                    </li>
+                    <li>
+                        <p>Where can I find your code?</p><br>
+                        <span>I have GitHub account but my projects (including this website) are private repository.</span>
+                    </li>
+                    <li>
+                        <p>Can I use your code?</p>
+                        <span>I don‘t allow anyone to use my code. I don‘t wanna say such thing but I got too much questions about that.</span>
+                    </li>
+                    <li>
+                        <p>How did you learn web frontend and WebGL/glsl ?</p>
+                        <span>By reading books and articles on the internet.</span><br>
+                        <span>Here is a list of web pages I recommend to read.</span><br><br>
+                        <a href="https://thebookofshaders.com" target="_blank">The Book of Shaders</a><br>
+                        <a href="https://threejs-journey.com/" target="_blank">three.js journey</a><br>
+                        <a href="https://tympanus.net/codrops/?s=three.js&amp;search-type=posts" target="_blank">Codrops</a>
+                    </li>
+                    <li>
+                        <p>What libraries do you use?</p>
+                        <span><a href="https://gsap.com/" target="_blank">GSAP</a> for creating animations.</span><br>
+                        <span><a href="https://threejs.org/" target="_blank">three.js</a> for writing WebGL code.</span><br>
+                        <span><a href="https://tweakpane.github.io/docs/" target="_blank">Tweakpane</a> for tuning parameters.</span><br>
+                        <span><a href="https://alpinejs.dev/" target="_blank">Alpine.js</a> is my favorite JavaScript framework.</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class ="copyright">
+            <p>Reproduction, reposting or modification of the content of this site is prohibited.</p>
+        </div>
+    </div>
+    <script src="JS.js"></script>
+</body>
+</html>
