@@ -127,8 +127,28 @@ nav a{
 .body .textAtLastPage-faq a{
     color:#111111;
 }
+
 .faq{
     display: flex;
+    position: relative;
+}
+
+.textAtLastPage-faq{
+    position: absolute;
+}
+
+@media (max-width: 991px){
+    .textAtLastPage-faq{
+        right: 0;
+    }    
+    .faq{
+        display: block;
+    }
+    .textAtLastPage-faq ul{
+        left: 0;
+        padding-left: 20px;
+    }
+
 }
 
 
