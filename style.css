@@ -133,8 +133,10 @@ nav a{
     position: relative;
 }
 
+
+
 .textAtLastPage-faq{
-    position: absolute;
+    padding-right: 20%;
 }
 
 @media (max-width: 991px){
@@ -151,6 +153,13 @@ nav a{
 
 }
 
+
+.body a:hover, .body .textAtLastPage-info ul a:hover{
+    color:rgba(102, 166, 0, 0.678);
+}
+.darkmode a:hover,.darkmode .textAtLastPage-info ul a:hover,.darkmode .theTextNextTheBox a:hover{
+    color:rgba(238, 255, 48, 0.674);
+}
 
 /* dark mode */
 .darkmode{
