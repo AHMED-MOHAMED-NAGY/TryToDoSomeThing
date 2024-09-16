@@ -17,6 +17,10 @@ p{
     font-weight: bold;
 }
 
+h1{
+    font-family: monospace;
+}
+
 .page{
     width: 95%;
     display: block;
@@ -74,6 +78,27 @@ nav a{
     color: #111111;
 }
 
+.textAtLastPage-projects{
+    text-align: end;
+}
+.textAtLastPage-projects a{
+    text-decoration: none;
+    display: ruby;
+}
+
+/* adding space between p and h1 */
+.textAtLastPage-projects a h1{
+    padding-left: 5px;
+}
+/* make font size of dates smaller */
+.textAtLastPage-projects a p{
+    font-size: x-small;
+}
+
+.body .textAtLastPage-projects a{
+    color: #3c3c3c;
+}
+    
 
 .theTextNextTheBox{
     display: flex;
@@ -153,12 +178,12 @@ nav a{
 
 }
 
-
+/* make a hover of the links */
 .body a:hover, .body .textAtLastPage-info ul a:hover{
-    color:rgba(102, 166, 0, 0.678);
+    color:rgba(111, 111, 111, 0.678);
 }
 .darkmode a:hover,.darkmode .textAtLastPage-info ul a:hover,.darkmode .theTextNextTheBox a:hover{
-    color:rgba(238, 255, 48, 0.674);
+    color:rgba(93, 66, 9, 0.863);
 }
 
 /* dark mode */
@@ -182,6 +207,11 @@ nav a{
 .darkmode .textAtLastPage-faq a{
     color: bisque;
 }
+.darkmode a{
+    color: bisque;
+}
+
+
 /*last of dark mode*/
 
 
